@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import * as React from 'react';
-import { StyleSheet, Text, TouchableOpacity, View , SafeAreaView, ImageBackground, Image} from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView, ImageBackground, Image, TouchableOpacity, Platform } from 'react-native';
 
 export default class HomeScreen extends React.Component {
     render() {
